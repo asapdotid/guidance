@@ -34,7 +34,7 @@ Check nginx version on repo:
 Now `yum` will prefer to install nginx from stable nginx repository. Finalise your nginx setup with:
 >sudo yum -y install nginx
 
-##Run nginx and Other Commandline
+## Run nginx and Other Commandline
 Now we are ready to run nginx:
 > sudo systemctl start nginx
 

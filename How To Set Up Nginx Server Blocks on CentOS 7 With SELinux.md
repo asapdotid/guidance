@@ -1,4 +1,4 @@
-#How To Set Up Nginx Server Blocks on CentOS 7 With SELinux
+# How To Set Up Nginx Server Blocks on CentOS 7 With SELinux
 
 Introduction
 It is the largest and highest-traffic site on the Internet. In most cases, it can be used as a reverse proxy.
@@ -10,7 +10,7 @@ Nginx server blocks on a CentOS 7 VPS. During this process, you will be requesti
 
 >Read Artile: `How to install nginx on CentOS 7 properly`
 
-##Step One - Create the Directory Structure
+## Step One - Create the Directory Structure
 
 First, we need to keep track of visitors.
 Our  document root  (the top-level directory That looks Nginx AT to the find content to the serve) will of the BE set to Individual directories in the  /var/www directory. 
@@ -23,7 +23,7 @@ The make for These CAN for We directories using the the  mkdir command (with a  
 
 >sudo chmod -R 755 /var/www
 
-###nginx 403 Forbidden Error hosting in Website Apllication Directory
+### nginx 403 Forbidden Error hosting in Website Apllication Directory
 
 >chcon -Rt httpd_sys_content_t /var/www/example/
 
