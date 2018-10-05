@@ -1,4 +1,4 @@
-# Setup Selinux polecy & Firewall Rule for Nginx (CentOS 7.5)
+# Setup Selinux policy & Firewall Rule for Nginx (CentOS 7.5)
 
 
 ### Adding Port (flag `-a` mean add, flag `-p` mean protocol)
