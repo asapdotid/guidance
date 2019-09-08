@@ -3,10 +3,12 @@
 These instructions aim to provide proper and the only correct way to install nginx web server on CentOS 7.
 
 ## Prepare your system
+
 First things first. You have to upgrade your CentOS 7 to latest release because nginx natively supports CentOS 7 >= 7.4:
 > sudo yum update && yum upgrade
 
 ## Add stable nginx repository
+
 Now that we have at least CentOS 7.4, let’s install nginx repository to our system. We import nginx package signing key and install release package which contains the nginx yum repository file.
 > sudo rpm --import https://nginx.org/keys/nginx_signing.key 
 
@@ -54,4 +56,5 @@ Reload nginx service:
 >nginx -s reload
 
 or
->systemctl restart nginx
+
+> systemctl restart nginx

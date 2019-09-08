@@ -8,7 +8,7 @@ Uses clause nginx  server blocks The  to the manage configurations for an Indivi
 It will be up to you. It can be a draw.
 Nginx server blocks on a CentOS 7 VPS. During this process, you will be requesting.
 
->Read Artile: `How to install nginx on CentOS 7 properly`
+> Read Artile: `How to install nginx on CentOS 7 properly`
 
 ## Step One - Create the Directory Structure
 
@@ -19,15 +19,15 @@ We will create a directory where we plan on making.
 We  html will keep our actual files. This gives us some flexibility in our hosting.
 
 The make for These CAN for We directories using the the  mkdir command (with a  -p flag That Allows us to the create a folder with a folder nested inside of IT):
->sudo mkdir -p /var/www/example/
-
->sudo chmod -R 755 /var/www
+> sudo mkdir -p /var/www/example/
+> sudo chmod -R 755 /var/www
 
 ### nginx 403 Forbidden Error hosting in Website Apllication Directory
 
->chcon -Rt httpd_sys_content_t /var/www/example/
+> chcon -Rt httpd_sys_content_t /var/www/example/
 
 restart nginx
->systemctl restart nginx
+
+> systemctl restart nginx
 
 done.

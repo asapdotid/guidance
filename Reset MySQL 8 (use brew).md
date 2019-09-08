@@ -7,7 +7,6 @@ $ brew postinstall mysql
 $ brew services restart mysql
 $ mysql -uroot
 
-
 ## setup password mysql
 
 $ mysql_secure_installation
