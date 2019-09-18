@@ -1,9 +1,9 @@
 # Update NPM on NVM
 
-## Use CMD
+## Use CMD (AppData\Roaming\nvm\v10.16.3)
 
 ``` bash
-cd %APPDATA%\nvm\v10.16.3 (C:\Users\asapm\AppData\Roaming\nvm\v10.16.3)
+cd %APPDATA%\nvm\v10.16.3
 move npm 6.9.0
 move npm.cmd 6.9.0.cmd
 cd node_modules\
@@ -12,19 +12,19 @@ cd 6.9.0\bin
 node npm-cli.js i -g npm@latest
 ```
 
-* Done *
+* Done
 
-> Remove old npm  (AppData\Roaming\nvm\v10.16.3)
+> Remove old npm in (AppData\Roaming\nvm\v10.16.3)
 
 ``` bash
 rmdir /s /q "node_modules\ 6.9.0"
 del /f 6.9.0 6.9.10.cmd
 ```
 
-## Use Git Bash
+## Use Git Bash (AppData\Roaming\nvm\v10.16.3)
 
 ``` bash
-cd AppData\Roaming\nvm\v10.16.3 
+cd AppData\Roaming\nvm\v10.16.3
 mv npm 6.9.0
 mv npm.cmd 6.9.0.cmd
 cd node_modules\
@@ -33,7 +33,7 @@ cd 6.9.0\bin
 node npm-cli.js i -g npm@latest
 ```
 
-* Done *
+* Done
 
 > Remove old npm (AppData\Roaming\nvm\v10.16.3)
 
