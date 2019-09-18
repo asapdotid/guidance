@@ -1,4 +1,4 @@
-# Update NPM on NVM
+# Update NPM on NVM Windows 10
 
 ## Use CMD (AppData\Roaming\nvm\v10.16.3)
 
