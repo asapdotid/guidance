@@ -113,7 +113,7 @@ sudo cp /private/etc/php-fpm.conf.default /private/etc/php-fpm.conf
 
 _edit php-fpm.conf_:
 
-> create first directory for error log: `sudo mkdir /var/log/php`
+> create first directory for error log: `sudo mkdir /var/log/php` + `sudo chgrp -R staff /var/log/php` + `sudo chmod -R ug+w /var/log/php`
 
 ```bash
 error_log=/var/log/php/php-fpm.log
@@ -251,6 +251,7 @@ http {
 }
 ```
 
+> setup directory for nginx logging: `sudo mkdir -p /var/log/nginx` + `sudo chgrp -R staff /var/log/nginx` + `sudo chmod -R ug+w /var/log/nginx`
 > to setup a virtual host I add the config code and for the virtual host config I put it in the HOME directory.
 > for example: `/Users/your_user_name/.config/nginx`
 
